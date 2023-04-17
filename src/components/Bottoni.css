@@ -1,0 +1,57 @@
+
+:root{
+    --slice: 0deg;
+}
+
+/* ----------------------------- */
+
+.mezzo{
+    height: 55vh;
+}
+
+.circolo{
+    position: relative;
+    height: 300px;
+    width: 300px;
+
+    background-image: 
+        conic-gradient(
+            white var(--slice),
+            brown var(--slice)
+        );
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centrato{
+    position: absolute;
+    height: 80%;
+    width:  80%;
+    border-radius: 50%;
+
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .mezzo{
+        height: 40vh;
+    }
+
+    .circolo{
+        height: 250px;
+        width: 250px;
+    }
+
+}
+

@@ -97,21 +97,21 @@ const Bottoni = () =>{
               <div className='d-flex flex-column'>
 
                 <div className="d-flex justify-content-center ">
-                    <button className="btn btn-warning me-3 p-1 px-3 fw-bold fs-5"
+                    <button className="btn btn-warning me-3 p-3 px-3 fw-bold fs-5"
                             onClick={winn}
                     >
                         <span>Three </span>
                         <FontAwesomeIcon icon={faDiceThree} style={{color: "brown",}} />
                     </button>
-                    <button className="btn btn-warning ms-3 p-1 px-3 fw-bold fs-5"
+                    <button className="btn btn-warning ms-3 p-3 px-3 fw-bold fs-5"
                             onClick={loss}
                     >
                         <span>No three</span>
                     </button>
                 </div>
-                <div className='d-flex justify-content-center my-2 my-sm-2'>
+                <div className='d-flex justify-content-center my-3 my-sm-2'>
 
-                    <button className="btn btn-danger p-1 px-2 fw-bold fs-5"
+                    <button className="btn btn-danger p-2 px-3 fw-bold fs-5"
                             onClick={ ()=> setLeva((w)=> !w) }
                     >
                         <span>Stop </span>
@@ -131,7 +131,7 @@ const Bottoni = () =>{
               </div>
             }
 
-            <div className="d-flex justify-content-center my-1">
+            <div className="d-flex justify-content-center my-3 my-sm-1">
               <h2 className="w-75 text-center">
                 
                 {

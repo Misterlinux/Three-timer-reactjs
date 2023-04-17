@@ -24,7 +24,7 @@ function App() {
 
       <Bottone />
 
-      <footer className="bg-dark p-2 text-white foot text-center position-fixed bottom-0 w-100">
+      <footer className="bg-dark p-1 text-white foot text-center position-fixed bottom-0 w-100">
         <span>Code made by Angelo Zarate, check his </span>
         <span><a href="https://codepen.io/misterlinux" className="text-warning">codepen</a></span>
         <span> and his in </span>

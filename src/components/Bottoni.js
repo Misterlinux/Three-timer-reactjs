@@ -97,13 +97,13 @@ const Bottoni = () =>{
               <div className='d-flex flex-column'>
 
                 <div className="d-flex justify-content-center ">
-                    <button className="btn btn-warning me-3 p-3 px-3 fw-bold fs-5"
+                    <button className="btn btn-warning me-3 p-3 px-3 p-sm-2 fw-bold fs-5"
                             onClick={winn}
                     >
                         <span>Three </span>
                         <FontAwesomeIcon icon={faDiceThree} style={{color: "brown",}} />
                     </button>
-                    <button className="btn btn-warning ms-3 p-3 px-3 fw-bold fs-5"
+                    <button className="btn btn-warning ms-3 p-3 px-3 p-sm-2 fw-bold fs-5"
                             onClick={loss}
                     >
                         <span>No three</span>

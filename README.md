@@ -1,5 +1,7 @@
 The rule of three-timer asks the player to guess which numbers are divisible by 3, on a conic-gradient timer.
-We implement a stop/re-set/re-start single buttonb for the setInbterval() timer by usin useEffect().
+
+We implement a stop/re-set/re-start single button for the setInbterval() timer by using useEffect().
+
 You can find the javascript-pure version [Here](https://codepen.io/misterlinux/pen/yLRBMNx)
 
 ![application](https://user-images.githubusercontent.com/43761354/232741799-5fd4d647-b4f2-4c48-9d86-b9353d0b639b.png)
